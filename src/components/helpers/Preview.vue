@@ -200,7 +200,9 @@ export default {
 				:src="image && image.src"
 				:class="classes.image"
 				:style="imageStyle"
-			/>
+			>
+				<slot> </slot>
+			</img>
 		</div>
 	</div>
 </template>
